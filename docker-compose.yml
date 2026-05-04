@@ -9,7 +9,7 @@ services:
       - "80:80"
     restart: always
     depends_on:
-      - ashokthapa/notes-app:latest
+      - django_app
     networks:
       - notes-app-nw
 
